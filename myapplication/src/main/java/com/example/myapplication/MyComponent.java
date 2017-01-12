@@ -10,7 +10,7 @@ import com.vaadin.shared.MouseEventDetails;
 // for MyComponent
 public class MyComponent extends com.vaadin.ui.AbstractComponent {
 
-    private int clickCount = 0;
+    private int clickCount = 0;  //
 
     // To process events from the client, we implement ServerRpc
     private MyComponentServerRpc rpc = new MyComponentServerRpc() {
